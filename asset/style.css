@@ -1,0 +1,122 @@
+body {
+    background-color: #f7f8fc;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+p {
+    font-size: 12px;
+}
+
+nav {
+    background-color: white;
+    box-shadow: 0px 4px 5px 1px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    /* height: 5%; */
+}
+
+nav .navbar{
+    display: flex;
+    justify-content: end;
+    padding: 0 10% 0 10%;
+}
+
+.navbar a {
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.information {
+    background-color: white;
+    padding: 5px 10px 10px 10px;
+    margin: 75px 10% 10px 10%;
+    display: flex;
+}
+
+#avatar {
+    width: 150px;
+    height: 150px;
+    margin-right: 1%;
+}
+
+.data-diri, .ket-label, .ket-data{
+    margin-right: 1%;
+}
+
+.data-diri h2, p{
+    margin: 10px;
+}
+
+form {
+    background-color: white;
+    padding: 5px 10px 10px 10px;
+    margin: 25px 10% 10px 10%;
+    /* display: flex; */
+}
+
+
+label {
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+form div {
+    /* padding: 5px; */
+    margin: 5px 0 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+form div label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form div input {
+    padding: 5px;
+}
+
+.submit {
+    margin: 5px 0 0 0;
+    width: 100%;
+    background-color: #04AA6D;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+}
+
+.button button{
+    /* background-color: #e9e19e; */
+    /* color: white; */
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.button {
+    margin: 0 10px 0 10px;
+}
+
+#kontak {
+    background-color: #2570d3;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+}
+
+#resume {
+    background-color: white;
+    color:#2570d3;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid #2570d3;
+}
